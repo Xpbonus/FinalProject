@@ -1,0 +1,44 @@
+/* Style for nav */
+header{background-color: aqua;}
+.ham {width: 20px;}
+.Nav{display: block;}
+
+.Hide{display:none;}
+.Show{display: block;}
+#drop{position: absolute; background-color:white ;}
+
+/* Style for body */
+.grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    background-color: purple;
+    padding: 10px;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .grid-container2 {
+    display: grid;
+    grid-template-columns: auto;
+    background-color: rgb(0, 128, 79);
+    padding: 10px;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  img{max-width: 70%;}
+/* style for desktop */
+
+@media screen and (min-width:1000px){
+    .grid-container{grid-template-columns: auto auto auto auto auto auto;}
+    .grid-container2{grid-template-columns: auto auto auto;}
+}
+
